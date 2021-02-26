@@ -1,0 +1,85 @@
+{
+    "products": [
+        {
+            "name": "booboos",
+            "type": "chocolate",
+            "id": 1
+        },
+        {
+            "name": "turtles",
+            "type": "chocolate",
+            "id": 2
+        },
+        {
+            "name": "sweet strips",
+            "type": "candy",
+            "id": 1
+        },
+        {
+            "name": "war herds",
+            "type": "sour",
+            "id": 1
+        },
+        {
+            "name": "lemon squeezers",
+            "type": "sour",
+            "id": 1
+        }
+    ],
+    "locations": [
+        {
+            "name": "Kandy Korner Westville",
+            "address": "202 Westy Way",
+            "id": 1
+        }
+        {
+            "name": "Kandy Korner Buckman",
+            "address": "68 Bucky Bend",
+            "id": 2
+        }
+    ],
+    "employees": [
+        {
+            "name": "Bunny Bob",
+            "address": "62 Furry Place",
+            "locationId": 1
+        },
+        {
+            "name": "Porky Pie",
+            "address": "67890 Cady Lane",
+            "locationId": 2
+        }
+    ],
+    "productTypes": [
+        {
+            "type": "candy",
+            "id": 1
+        },
+        {
+            "type": "sour",
+            "id": 2
+        },
+        {
+            "type": "chocolate",
+            "id": 3
+        }
+    ],
+    "customers": [
+        {
+            "name": "Betty Boop",
+            "id": 1
+        },
+        {
+            "name": "Oroville Redenbacher",
+            "id": 2
+        },
+        {
+            "name": "Tom Brady",
+            "id": 3
+        },
+        {
+            "name": "Scooter Jennings",
+            "id": 4
+        }
+    ]
+}
