@@ -2,52 +2,52 @@
     "products": [
         {
             "name": "booboos",
-            "type": "chocolate",
+            "productTypeId": 3,
             "id": 1
         },
         {
             "name": "turtles",
-            "type": "chocolate",
+            "productTypeId": 3,
             "id": 2
         },
         {
             "name": "sweet strips",
-            "type": "hard candy",
+            "productTypeId": 1,
             "id": 3
         },
         {
             "name": "tooties",
-            "type": "hard candy",
+            "productTypeId": 1,
             "id": 4
         },
         {
             "name": "lollipops",
-            "type": "hard candy",
+            "productTypeId": 1,
             "id": 5
         },
         {
             "name": "pickle juice soda",
-            "type": "drinks",
+            "productTypeId": 4,
             "id": 6
         },
         {
             "name": "root beer",
-            "type": "drinks",
+            "productTypeId": 4,
             "id": 7
         },
         {
             "name": "cotton candy float",
-            "type": "drinks",
+            "productTypeId": 4,
             "id": 8
         },
         {
             "name": "war herds",
-            "type": "sour",
+            "productTypeId": 2,
             "id": 9
         },
         {
             "name": "lemon squeezers",
-            "type": "sour",
+            "productTypeId": 2,
             "id": 10
         }
     ],
@@ -79,18 +79,22 @@
             "locationId": 2
         }
     ],
-    "productTypes": [
+    "productType": [
         {
-            "type": "candy",
+            "productType": "hard candy",
             "id": 1
         },
         {
-            "type": "sour",
+            "productType": "sour",
             "id": 2
         },
         {
-            "type": "chocolate",
+            "productType": "chocolate",
             "id": 3
+        },
+        {
+            "productType": "drinks",
+            "id": 4
         }
     ],
     "customers": [
