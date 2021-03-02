@@ -30,11 +30,15 @@
         {
             "name": "Kandy Korner Westville",
             "address": "202 Westy Way",
+            "squareFootage": 2000,
+            "handicapAccessible": true,
             "id": 1
         },
         {
             "name": "Kandy Korner Buckman",
             "address": "68 Bucky Bend",
+            "squareFootage": 1500,
+            "handicapAccessible": true,
             "id": 2
         }
     ],
