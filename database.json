@@ -2,52 +2,62 @@
     "products": [
         {
             "name": "booboos",
+            "price": 1.25,
             "productTypeId": 3,
             "id": 1
         },
         {
             "name": "turtles",
             "productTypeId": 3,
+            "price": 1.50,
             "id": 2
         },
         {
             "name": "sweet strips",
             "productTypeId": 1,
+            "price": 2.50,
             "id": 3
         },
         {
             "name": "tooties",
             "productTypeId": 1,
+            "price": 2.25,
             "id": 4
         },
         {
             "name": "lollipops",
             "productTypeId": 1,
+            "price": 1.50,
             "id": 5
         },
         {
             "name": "pickle juice soda",
             "productTypeId": 4,
+            "price": 3.75,
             "id": 6
         },
         {
             "name": "root beer",
             "productTypeId": 4,
+            "price": 5.25,
             "id": 7
         },
         {
             "name": "cotton candy float",
             "productTypeId": 4,
+            "price": 4.25,
             "id": 8
         },
         {
             "name": "war herds",
             "productTypeId": 2,
+            "price": 1.75,
             "id": 9
         },
         {
             "name": "lemon squeezers",
             "productTypeId": 2,
+            "price": 6.50,
             "id": 10
         }
     ],
@@ -79,7 +89,7 @@
             "locationId": 2
         }
     ],
-    "productType": [
+    "productTypes": [
         {
             "productType": "hard candy",
             "id": 1
