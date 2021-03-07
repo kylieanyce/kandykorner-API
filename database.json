@@ -80,13 +80,35 @@
     "employees": [
         {
             "name": "Bunny Bob",
-            "address": "62 Furry Place",
-            "locationId": 1
+            "locationId": 1,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 20,
+            "id": 1
         },
         {
             "name": "Porky Pie",
-            "address": "67890 Cady Lane",
-            "locationId": 2
+            "locationId": 2,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 20,
+            "id": 2
+        },
+        {
+            "name": "Scooter Jennings",
+            "locationId": 1,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 15,
+            "id": 3
+        },
+        {
+            "name": "Bart Manley",
+            "locationId": 2,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 12,
+            "id": 4
         }
     ],
     "productTypes": [
