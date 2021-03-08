@@ -1,150 +1,214 @@
 {
-    "products": [
-        {
-            "name": "booboos",
-            "price": 1.25,
-            "productTypeId": 3,
-            "id": 1
-        },
-        {
-            "name": "turtles",
-            "productTypeId": 3,
-            "price": 1.50,
-            "id": 2
-        },
-        {
-            "name": "sweet strips",
-            "productTypeId": 1,
-            "price": 2.50,
-            "id": 3
-        },
-        {
-            "name": "tooties",
-            "productTypeId": 1,
-            "price": 2.25,
-            "id": 4
-        },
-        {
-            "name": "lollipops",
-            "productTypeId": 1,
-            "price": 1.50,
-            "id": 5
-        },
-        {
-            "name": "pickle juice soda",
-            "productTypeId": 4,
-            "price": 3.75,
-            "id": 6
-        },
-        {
-            "name": "root beer",
-            "productTypeId": 4,
-            "price": 5.25,
-            "id": 7
-        },
-        {
-            "name": "cotton candy float",
-            "productTypeId": 4,
-            "price": 4.25,
-            "id": 8
-        },
-        {
-            "name": "war herds",
-            "productTypeId": 2,
-            "price": 1.75,
-            "id": 9
-        },
-        {
-            "name": "lemon squeezers",
-            "productTypeId": 2,
-            "price": 6.50,
-            "id": 10
-        }
-    ],
-    "locations": [
-        {
-            "name": "Kandy Korner Westville",
-            "address": "202 Westy Way",
-            "squareFootage": 2000,
-            "handicapAccessible": true,
-            "id": 1
-        },
-        {
-            "name": "Kandy Korner Buckman",
-            "address": "68 Bucky Bend",
-            "squareFootage": 1500,
-            "handicapAccessible": true,
-            "id": 2
-        }
-    ],
-    "employees": [
-        {
-            "name": "Bunny Bob",
-            "locationId": 1,
-            "manager": true,
-            "fullTime": true,
-            "hourlyRate": 20,
-            "id": 1
-        },
-        {
-            "name": "Porky Pie",
-            "locationId": 2,
-            "manager": true,
-            "fullTime": true,
-            "hourlyRate": 20,
-            "id": 2
-        },
-        {
-            "name": "Scooter Jennings",
-            "locationId": 1,
-            "manager": false,
-            "fullTime": false,
-            "hourlyRate": 15,
-            "id": 3
-        },
-        {
-            "name": "Bart Manley",
-            "locationId": 2,
-            "manager": false,
-            "fullTime": false,
-            "hourlyRate": 12,
-            "id": 4
-        }
-    ],
-    "productTypes": [
-        {
-            "productType": "hard candy",
-            "id": 1
-        },
-        {
-            "productType": "sour",
-            "id": 2
-        },
-        {
-            "productType": "chocolate",
-            "id": 3
-        },
-        {
-            "productType": "drinks",
-            "id": 4
-        }
-    ],
-    "customers": [
-        {
-            "name": "Betty Boop",
-            "id": 1
-        },
-        {
-            "name": "Oroville Redenbacher",
-            "id": 2
-        },
-        {
-            "name": "Tom Brady",
-            "id": 3
-        },
-        {
-            "name": "Scooter Jennings",
-            "id": 4
-        }
-    ]
+  "products": [
+    {
+      "name": "booboos",
+      "price": 1.25,
+      "productTypeId": 3,
+      "id": 1
+    },
+    {
+      "name": "turtles",
+      "productTypeId": 3,
+      "price": 1.5,
+      "id": 2
+    },
+    {
+      "name": "sweet strips",
+      "productTypeId": 1,
+      "price": 2.5,
+      "id": 3
+    },
+    {
+      "name": "tooties",
+      "productTypeId": 1,
+      "price": 2.25,
+      "id": 4
+    },
+    {
+      "name": "lollipops",
+      "productTypeId": 1,
+      "price": 1.5,
+      "id": 5
+    },
+    {
+      "name": "pickle juice soda",
+      "productTypeId": 4,
+      "price": 3.75,
+      "id": 6
+    },
+    {
+      "name": "root beer",
+      "productTypeId": 4,
+      "price": 5.25,
+      "id": 7
+    },
+    {
+      "name": "cotton candy float",
+      "productTypeId": 4,
+      "price": 4.25,
+      "id": 8
+    },
+    {
+      "name": "war herds",
+      "productTypeId": 2,
+      "price": 1.75,
+      "id": 9
+    },
+    {
+      "name": "lemon squeezers",
+      "productTypeId": 2,
+      "price": 6.5,
+      "id": 10
+    }
+  ],
+  "locations": [
+    {
+      "name": "Kandy Korner Westville",
+      "address": "202 Westy Way",
+      "squareFootage": 2000,
+      "handicapAccessible": true,
+      "id": 1
+    },
+    {
+      "name": "Kandy Korner Buckman",
+      "address": "68 Bucky Bend",
+      "squareFootage": 1500,
+      "handicapAccessible": true,
+      "id": 2
+    }
+  ],
+  "employees": [
+    {
+      "name": "Bunny Bob",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 20,
+      "id": 1
+    },
+    {
+      "name": "Porky Pie",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 20,
+      "id": 2
+    },
+    {
+      "name": "Scooter Jennings",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 15,
+      "id": 3
+    },
+    {
+      "name": "Bart Manley",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 12,
+      "id": 4
+    },
+    {
+      "name": "tullulah",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 0,
+      "id": 5
+    },
+    {
+      "name": "birdie",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 0,
+      "id": 6
+    },
+    {
+      "name": "kylie bearden",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 0,
+      "id": 7
+    },
+    {
+      "name": "kylie bearden",
+      "locationId": null,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": "4",
+      "id": 8
+    },
+    {
+      "name": "heaven",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 0,
+      "id": 9
+    },
+    {
+      "name": "heaven",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 0,
+      "id": 10
+    },
+    {
+      "name": "heaven",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 0,
+      "id": 11
+    },
+    {
+      "name": "petunia",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 0,
+      "id": 12
+    }
+  ],
+  "productTypes": [
+    {
+      "productType": "hard candy",
+      "id": 1
+    },
+    {
+      "productType": "sour",
+      "id": 2
+    },
+    {
+      "productType": "chocolate",
+      "id": 3
+    },
+    {
+      "productType": "drinks",
+      "id": 4
+    }
+  ],
+  "customers": [
+    {
+      "name": "Betty Boop",
+      "id": 1
+    },
+    {
+      "name": "Oroville Redenbacher",
+      "id": 2
+    },
+    {
+      "name": "Tom Brady",
+      "id": 3
+    },
+    {
+      "name": "Scooter Jennings",
+      "id": 4
+    }
+  ]
 }
